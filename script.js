@@ -12,5 +12,5 @@ function generateRandomFact() {
     document.getElementById("fact-display").textContent = randomFact;
     alert(randomFact);
 }
-
+alert("hi")
 document.getElementById("generate-button").addEventListener("click", generateRandomFact);
